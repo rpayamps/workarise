@@ -9,6 +9,8 @@ export default function Task(props) {
   const [collapsed, setCollapsed] = useState(task.isCollapsed);
   const [formAction, setFormAction] = useState("");
 
+
+  // this component sets the urgency level between backlog, in progress and done
   function setUrgency(event) {
     setUrgencyLevel(event.target.attributes.urgency.value);
   }

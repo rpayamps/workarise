@@ -2,6 +2,7 @@ import Task from "./Task";
 import React from 'react';
 import "./StatusLine.css"
 
+//This Component is the actions which can be perfomed with tasks such as delete, create, save and change the position of progress
 export default function StatusLine(props) {
   const { status, tasks, addTask, deleteTask, addEmptyTask, moveTask } = props;
 

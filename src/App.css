@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+    margin: 2rem 0;
+    font-weight: 400;
+    color: white;
+    justify-content: center;
+    display: flex;
   }
+
+h3{
+    color: #fed766;
+}
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #9ddbad;
+    align-items: center;
+    width: fit-content;
+}
+section {
+    display: flex;
+    width: 70rem;
+    margin-bottom: 2rem;
+}
+.button {
+    border: 1px solid #edc988;
+    text-transform: uppercase;
+    width: fit-content;
+    padding: 0.3rem 1.5rem;
+    background-color: white;
+    border-color: #9ad3bc;
+    color: #132743;
+    font-weight: 500;
+    font-family: "Kanit", sans-serif;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    margin-right: 0.25rem;
+}
+.button:hover {
+    background-color: #2ec1ac;
+    border-color: #2ec1ac;
+    cursor: pointer;
+}
+.button:focus {
+    outline: none;
+    border-color: #2ec1ac;
+    background-color: #2ec1ac;
+    color: #eeecda;
+}
+.button.addTask {
+    font-size: 3rem;
+    padding: 0 0 0.4rem 0;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 1rem;
+    margin-top: 2rem;
+}
+.button.moveTask {
+    font-size: 1.5rem;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0;
+    line-height: 1rem;
+}
+.button.delete {
+    background-color: #ffa5a5;
+    border-color: #ffa5a5;
+}
+.button.delete:hover {
+    background-color: #ff8282;
+    border-color: #ff8282;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4{
+    color: white;
 }
